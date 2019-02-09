@@ -1,0 +1,20 @@
+/*
+Bekk Blando | Jada Houser
+Programming Assignment 4
+Instructor: Dr. Yvon Feaster
+CPSC 1020
+Due: Friday, December 8th
+*/
+
+Problems:
+I encountered a problem implementing polymorphism in C++ as I'm used to dynamically
+typed languages(mainly ruby) the difference between set pointer value and object value
+was not clear at first.
+
+Solution:
+After reading the documentation and reviewing the power points implementing polymorphism
+in C++ became clear.
+
+Thoughts:
+I enjoyed this project and feel that the pair programming aspect of the project helped
+several students.

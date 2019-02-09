@@ -1,0 +1,30 @@
+/* Bekk Blando | Jada Houser
+ * CPSC 1020 Fall 2017
+ * Assignment: Project Assignment 4
+ * Due: 12/8/2017
+ * Instructor: Dr. Yvon Feaster
+ * Jada's README
+ */
+
+Note
+We completed all extra credit and have an input file (called inputMulti.txt) for
+the 2nd EC opportunity.
+
+Program Problems
+Problems encountered with the program centered primarily around implementing 
+the polymorphism and an unnecessary additional output that was being generated.
+
+Solved Problems
+Implementing the polymorphism involved the use of a vector pointer and 2D vector
+pointer both of type 'ProduceStand' in the loadData function (which returned the
+2D vector pointer). The vector pointer stored individual sales (push_backed fruits
+and vegetables) while the 2D vector pointer stored orders (push_backed sales). In
+the driver, a nested for loop calls each sale and order as needed to print the right
+output.
+The issue with the additional output was resolved by using a different condition for
+the while loop that went over the input file (checking for numItems rather than having
+it read until EOF).
+
+Sentiment
+The project wasn't too bad after the initial hurdles were overcome. One of the more 
+challenging due to the aforementioned problems, however.
